@@ -1,9 +1,14 @@
 -- SQL Query to create and import data from csv files:
 
--- 0. Create a database 
+-- ===============================
+-- 0. Create a database
+-- ===============================
+
 CREATE DATABASE ccdb;
 
+-- ===============================
 -- 1. Create cc_detail table
+-- ===============================
 
 CREATE TABLE cc_detail (
     Client_Num INT,
@@ -26,8 +31,9 @@ CREATE TABLE cc_detail (
     Delinquent_Acc VARCHAR(5)
 );
 
-
+-- ===============================
 -- 2. Create cc_detail table
+-- ===============================
 
 CREATE TABLE cust_detail (
     Client_Num INT,
@@ -47,8 +53,9 @@ CREATE TABLE cust_detail (
     Cust_Satisfaction_Score INT
 );
 
-
+-- ===============================
 -- 3. Copy csv data into SQL 
+-- ===============================
 
 -- copy cc_detail table
 
@@ -64,8 +71,9 @@ FROM 'C:\Users\ASUS\Downloads\Power_BI_Credit_Card\customer.csv'
 DELIMITER ',' 
 CSV HEADER;
 
-
+-- ===============================
 -- 4. Insert additional data into SQL, using same COPY function 
+-- ===============================
 
 -- copy additional data (week-53) in cc_detail table
 

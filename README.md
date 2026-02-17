@@ -10,6 +10,9 @@ Data is structured in SQL to align with real-world data workflows prior to repor
 2. Create tables in SQL
 3. import csv file into SQL
 
+**SQL Implementation:**  
+[Credit Card Data Import & Setup](/SQL/SQL%20Query%20Financial%20Dashboard.sql)
+
 ## 3. Dashboard Overview
 **3.1 Credit Card Transaction Report**
 
