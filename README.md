@@ -34,15 +34,27 @@ Provides insight into customer demographics and behavior:
 
 ![Credit Card Customer Report](/Images/credit_card-customer.JPG)
 
+**3.3 Key Metrics Report**
+
+Provides a consolidated snapshot of overall business performance and key indicators:
+- Week-on-week comparison of revenue, transaction amount, and customer growth
+- Trend analysis of transaction amounts across weeks
+- Revenue contribution breakdown by card category and geographic regions
+- Customer behavior insights through activation and delinquency rates
+- Segmentation of delinquency patterns across different occupation groups
+
+![Key Metrics Overview Report](/Images/key-metrics.JPG)
+
 ## 4. Project Insights- Week 53 (31st Dec)
 
 - Revenue increased by 28.8%
+- Total transaction amount increased by 35%
+- Customer count increased by 12.8%
 - Overall revenue is 57M
 - Total interest is 8M
 - Total transaction amount is 45.5M
-- Male customers are contributing more in revenue 31M, female 26M
-- Blue & Silver credit card are contributing to 93% of overall
-transactions
+- Male customers are contributing more in revenue $31M, and female $26M
+- Blue & Silver credit card are contributing to 93% of overall transactions
 - TX, NY & CA is contributing to 68%
 - Overall Activation rate is 57.5%
 - Overall Delinquent rate is 6.06%
